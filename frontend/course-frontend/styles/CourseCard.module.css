@@ -1,0 +1,43 @@
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+  }
+  
+  .courseImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .courseContent {
+    padding: 16px;
+  }
+  
+  .courseTitle {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+  }
+  
+  .courseDescription {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 12px;
+  }
+  
+  .enrollButton {
+    padding: 10px 16px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .enrollButton:hover {
+    background-color: #005bb5;
+  }
+  
